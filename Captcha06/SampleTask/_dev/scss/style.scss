@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+// ===============================
+//   Variables
+// ===============================
+$red: #f00;
+$blue: blue;
+
+// ===============================
+//     Mixins (Include)
+// ===============================
+@mixin link {
+  color: #00f;
+}
+
+
+
+/* ===============================
+   Test
+=============================== */
+a {
+  @include link;
+}
+
+/* ===============================
+   Nesting
+=============================== */
+html {
+  background: $red;
+  body {
+    background: $blue;
+  }
+}
+
+
+
+a { background: #000000;}
+
+div {
+	font-size: 12px;
+}
+
+
+#test {
+	width: 300px;
+	margin:50px;
+	border: #ff0000 solid 1px;
+}
+
+#test2 {
+	padding: 15px;
+	display: block;
+	border: #ff0022 solid 1px;
+	text-align:center;
+	margin: 5px;
+}
+.test3 {
+	border: 1px solid #3C0;
+	margin: 58px;
+	padding: 60px;
+	display:inline;
+}
+.test4 {
+	text-align:center;
+	margin:30px;
+	border: 1px solid #3C0;
+	width:960px;
+	padding: 20px;
+}

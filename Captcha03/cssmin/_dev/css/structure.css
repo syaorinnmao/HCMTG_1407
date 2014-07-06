@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*---------------------------------------------
+opt-css vartion:0.1
+name:structure.css
+UpDate:14/04/21
+
+[discription]
+	OPT-CSSで使用する構造用CSS
+---------------------------------------------*/
+#wrapper {
+	width: 100%;
+}
+#content {
+	width: 100%;
+}
+
+#menu {
+	width: 100%;
+}
+
+#menu li {
+	display: inline;
+	margin: 0 30px;
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+/*---------------------------------------------
+opt-css vartion:0.1
+name:utility.css
+UpDate:14/04/21
+
+[discription]
+	OPT-CSSで使用するユーティリティ用CSS
+---------------------------------------------*/
+
+/* font-size */
+.f10{ font-size: 10px !important; font-size: 1.0rem !important; }
+.f11{ font-size: 11px !important; font-size: 1.1rem !important; }
+.f12{ font-size: 12px !important; font-size: 1.2rem !important; }
+.f13{ font-size: 13px !important; font-size: 1.3rem !important; }
+.f14{ font-size: 14px !important; font-size: 1.4rem !important; }
+.f15{ font-size: 15px !important; font-size: 1.5rem !important; }
+.f16{ font-size: 16px !important; font-size: 1.6rem !important; }
+.f17{ font-size: 17px !important; font-size: 1.7rem !important; }
+.f18{ font-size: 18px !important; font-size: 1.8rem !important; }
+.f19{ font-size: 19px !important; font-size: 1.9rem !important; }
+.f20{ font-size: 20px !important; font-size: 2.0rem !important; }
+.f21{ font-size: 21px !important; font-size: 2.1rem !important; }
+.f22{ font-size: 22px !important; font-size: 2.2rem !important; }
+.f23{ font-size: 23px !important; font-size: 2.3rem !important; }
+.f24{ font-size: 24px !important; font-size: 2.4rem !important; }
+.f25{ font-size: 25px !important; font-size: 2.5rem !important; }
+.f26{ font-size: 26px !important; font-size: 2.6rem !important; }
+.f27{ font-size: 27px !important; font-size: 2.7rem !important; }
+.f28{ font-size: 28px !important; font-size: 2.8rem !important; }
+.f29{ font-size: 29px !important; font-size: 2.9rem !important; }
+.f30{ font-size: 30px !important; font-size: 3.0rem !important; }
+
+/* Padding */
+.pa5 {padding: 5px !important;}
+.pa10 {padding: 10px !important;}
+.pa15 {padding: 15px !important;}
+.pa20 {padding: 20px !important;}
+.pa25 {padding: 25px !important;}
+.pa30 {padding: 30px !important;}
+.pa35 {padding: 35px !important;}
+.pa40 {padding: 40px !important;}
+
+/* margin-bottom */
+.mb5 {margin-bottom: 5px !important;}
+.mb10 {margin-bottom: 10px !important;}
+.mb15 {margin-bottom: 15px !important;}
+.mb20 {margin-bottom: 20px !important;}
+.mb25 {margin-bottom: 25px !important;}
+.mb30 {margin-bottom: 30px !important;}
+.mb35 {margin-bottom: 35px !important;}
+.mb40 {margin-bottom: 40px !important;}
+
+/* margin-top */
+.mt5 {margin-top: 5px !important;}
+.mt10 {margin-top: 10px !important;}
+.mt15 {margin-top: 15px !important;}
+.mt20 {margin-top: 20px !important;}
+.mt25 {margin-top: 25px !important;}
+.mt30 {margin-top: 30px !important;}
+.mt35 {margin-top: 35px !important;}
+.mt40 {margin-top: 40px !important;}
+
+/* margin-right */
+.mr5 {margin-right: 5px !important;}
+.mr10 {margin-right: 10px !important;}
+.mr15 {margin-right: 15px !important;}
+.mr20 {margin-right: 20px !important;}
+.mr25 {margin-right: 25px !important;}
+.mr30 {margin-right: 30px !important;}
+.mr35 {margin-right: 35px !important;}
+.mr40 {margin-right: 40px !important;}
+
+/* margin-left */
+.ml5 {margin-left: 5px !important;}
+.ml10 {margin-left: 10px !important;}
+.ml15 {margin-left: 15px !important;}
+.ml20 {margin-left: 20px !important;}
+.ml25 {margin-left: 25px !important;}
+.ml30 {margin-left: 30px !important;}
+.ml35 {margin-left: 35px !important;}
+.ml40 {margin-left: 40px !important;}
+
+/*ボーダーカラー*/
+.bdcRed{ border-color:#ff0000 !important;}
+.bdcBlue{ border-color:#ff0000 !important;}
+.bdcGray{ border-color:#ff0000 !important;}
+
+/*ボーダー削除*/
+.bdtNone { border-top: none !important;}
+.bdlNone { border-left: none !important;}
+.bdbNone { border-bottom: none !important;}
+.bdrNone { border-right: none !important;}
+
+/*テキストalign*/
+.txtr { text-align: right !important;}
+.txtl { text-align: left !important;}
+.txtc { text-align: center !important;}
+
+/*フロート*/
+.left { float: left !important; }
+.right { float: right !important;}
+.cb { clear: both !important;}
+
+/*テキスト装飾*/
+.b{font-weight:700;}				/* 太字 */
+.u{text-decoration:underline;}	/* 下線 */
+
+/*文字色*/
+.red{color:red;}
+.blue{color:#2ca9e1;}
+.green{color:#82ae46;}
+.orange{color:#ff7d00;}
+.yellow{color:#fff000;}
+.pink{color:#ff0084;}
+
+/* =========================================================
+#Clearfix
+========================================================= */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+} 
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	overflow: auto; /*Dreamweaver用*/
+	*zoom: 1;/* IE6/7 support */
+}

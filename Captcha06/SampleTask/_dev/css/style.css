@@ -1,0 +1,63 @@
+/* CSS Document */
+/* ===============================
+   Test
+=============================== */
+/* line 22, ../scss/style.scss */
+a {
+  color: #00f;
+}
+
+/* ===============================
+   Nesting
+=============================== */
+/* line 29, ../scss/style.scss */
+html {
+  background: red;
+}
+/* line 31, ../scss/style.scss */
+html body {
+  background: blue;
+}
+
+/* line 38, ../scss/style.scss */
+a {
+  background: #000000;
+}
+
+/* line 40, ../scss/style.scss */
+div {
+  font-size: 12px;
+}
+
+/* line 45, ../scss/style.scss */
+#test {
+  width: 300px;
+  margin: 50px;
+  border: #ff0000 solid 1px;
+}
+
+/* line 51, ../scss/style.scss */
+#test2 {
+  padding: 15px;
+  display: block;
+  border: #ff0022 solid 1px;
+  text-align: center;
+  margin: 5px;
+}
+
+/* line 58, ../scss/style.scss */
+.test3 {
+  border: 1px solid #3C0;
+  margin: 58px;
+  padding: 60px;
+  display: inline;
+}
+
+/* line 64, ../scss/style.scss */
+.test4 {
+  text-align: center;
+  margin: 30px;
+  border: 1px solid #3C0;
+  width: 960px;
+  padding: 20px;
+}
