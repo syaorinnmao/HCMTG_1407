@@ -1,5 +1,5 @@
 {
-  "name": "cssmin",
+  "name": "copy",
   "version": "0.0.0",
   "description": "",
   "main": "Gruntfile.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-cssmin": "~0.10.0"
+    "grunt": "~0.4.5"
   }
 }
